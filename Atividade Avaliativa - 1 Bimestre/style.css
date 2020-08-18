@@ -1,0 +1,297 @@
+.affiliatio{
+	
+}
+img#badgeImg {
+    width: 6%;
+    height: 6%;
+    margin-right: 2%;
+    float: left;	
+}
+
+
+img#profileImg {
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+    padding: 7px;
+    border: 1px solid #123947;
+    position: relative;
+    float: left;
+    border-left-color: #00edff;
+    border-right-color: #00edff;
+    box-shadow: 0 0 50px rgba(0, 237, 255, 0.2);
+    margin-right: 20px;
+}
+@media (min-width: 992px)
+.col-md-6 {
+    width: 10%;
+}
+p{
+    font-size: 18px;
+    color: #39ced8;
+    text-shadow: 0px 0px 15px rgba(57, 206, 216, 0.5);
+    font-weight: normal;
+}
+}
+button{
+	display: block;
+    min-width: 7.5rem;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    padding: 0 1.25rem 0 1.45rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    border-bottom: 0;
+}
+
+div#profile {
+    width: 43%;
+    border: 1px solid #39ced8;
+    margin: 2%;
+	background: url('https://robertsspaceindustries.com/rsi/static/images/common/fading-bars.png') repeat;
+}
+.left-col {
+    padding: 30px 40px 20px 40px;
+    width: 334px;
+    float: left;
+    position: relative;
+}
+
+div#organization {
+    width: 43%;
+    border: 1px solid #39ced8;
+    margin: 2%;
+	background: url('https://robertsspaceindustries.com/rsi/static/images/common/fading-bars.png') repeat;
+}
+div#profileData {
+    width: 100%;
+}
+img#organizationImg {
+    width: 30%;
+    margin: 0% 2% 0% 0%;
+    padding: 7px;
+    border: 1px solid #123947;
+    position: relative;
+    float: left;
+    border-left-color: #00edff;
+    border-right-color: #00edff;
+    box-shadow: 0 0 50px rgba(0, 237, 255, 0.2);
+    margin-right: 20px;
+}
+
+#body {
+    background-image: url(https://live.staticflickr.com/4570/24057593827_1273acfed4_k.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 2%;
+	 font-family: Arial, Helvetica, sans-serif normal;
+	font-size: 15px;
+	font-weight: normal;
+}
+span{
+	font-size: 18px;
+    line-height: 15px;
+    color: #0099e6;
+	text-shadow: 0px 0px 15px rgba(57, 206, 216, 0.5);
+    clear: both;
+}
+.col-md-6{
+	text-align: center;
+}
+.container {
+    align-items: center;
+	overflow: hidden;
+    width: 100vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a{
+	background: url('https://robertsspaceindustries.com/rsi/static/images/page_title_lines.png');
+	cursor: pointer;
+	font-size: 18px;
+    color: #39ced8;
+    text-shadow: 0px 0px 15px rgba(57, 206, 216, 0.5);
+    font-weight: normal;
+    border: 1px solid;
+    padding: 1% 6% 1% 6%;
+    margin: 1% 0%;
+    margin: 1% 0%;
+}
+
+#principal {
+    align-items: center;
+    width: 96vw;
+    height: 38vh;
+	padding-top: 2%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    font-weight: 700;
+    font-size: 18px;
+    color: #39ced8;
+    text-shadow: 0px 0px 15px rgba(57, 206, 216, 0.5);
+    display: flex;
+    font-weight: normal;
+}
+
+input {
+	color: #39ced8;
+    text-shadow: 0px 0px 15px rgba(57, 206, 216, 0.5);
+    display: flex;
+    font-weight: normal;
+	background: rgba(0, 0, 0, 0.4);
+    width: 30%;
+    padding: 1%;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 5px;
+    box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(57, 206, 216, 0.8);
+}
+
+input:focus{
+	font-weight: 700;
+    color: #39ced8;
+    text-shadow: 0px 0px 15px rgba(57, 206, 216, 0.5);
+    display: flex;
+    font-weight: normal;
+    -webkit-box-shadow:inset 0 0 18px rgb(0, 104, 161);
+	transition: all 0.2s;
+}
+
+div#root {
+    align-items: center;
+    width: 95vw;
+    height: auto;
+	padding-bottom: 4px;
+    backdrop-filter: blur(10px);
+    padding-top: 2%;
+    margin-left: 2%;
+    flex-direction: row;
+    box-shadow: 0 0 50px rgba(0, 104, 161, 0.7);
+    justify-content: center;
+	overflow-x: hidden;
+}
+
+div#profileData {
+    width: 100%;
+    margin-left: 8%;
+}
+
+footer {
+    align-items: center;
+    width: 95vw;
+    height: 105vh;
+    padding-top: 2%;
+    margin-left: 2%;
+    flex-direction: row;
+    justify-content: center;
+}
+a#btnBusca {
+	align-items: center;
+	justify-content: center;
+    padding: 2%;
+    margin-left: 1%;
+    border-radius: 10px;
+	background: url(https://image.flaticon.com/icons/svg/875/875754.svg) no-repeat;
+	background-size: 30px;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+div#affiliation-0 {
+    margin-left: 30%;
+}
+
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-left: 44%;
+  position: center;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #cef;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

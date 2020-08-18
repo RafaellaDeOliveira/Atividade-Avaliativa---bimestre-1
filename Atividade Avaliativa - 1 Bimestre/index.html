@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+  <title>Trabalho Avaliativo</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body id="body">
+
+  <div id="root">
+	<div id="menu" class="container"> 
+		<a id="btnProfile" onclick="openProfile()">Perfil</a>
+		<a id="btnOganization" onclick="openOrganizations()">Organizações</a>
+	</div>
+	<div class="container">
+	<input id="inputBusca" onkeypress="return runScript(event)" placeholder = "Insira um nome de usuário"></input>
+	<a onclick="BuscaUsuario()" id="btnBusca"></a>
+	</div>
+	<div id="divLoader" class="container">
+	<div id="loader" class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+	</div>
+	<div id="principal" class="container">
+		<div id="profile" class="left-col limparDiv" ></div>
+		<div id="organization" class="left-col limparDiv"></div>
+	</div>
+
+		<div id="profileData" class="left-col limparDiv"></div>
+	<div id="affiliation" class = "limparDiv"></div>
+	
+	<!--<button onclick="openLink()">BIO</button> -->
+	
+  </div>
+  
+  
+
+  <script src="scripts.js"></script>
+</body>
+<footer></footer>
+</html>
